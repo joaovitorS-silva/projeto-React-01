@@ -6,7 +6,6 @@ function App() {
   const [tasks, setTasks] = useState(
     JSON.parse(localStorage.getItem("tasks")) || [],
   );
-  console.log("O QUE TEM DENTRO DE TASKS?", tasks);
 
   // useEffect(() => {
   //   const FetchFalse = async () => {
